@@ -1,14 +1,16 @@
+package Rasa;
+
 public class Human {
     int age;
     public static void main(String[] args){
     }
-    void BuyMilk(){
+    public void BuyMilk(){
         System.out.println("Buy milk");
     }
-    void BuyBread(){
+    public void BuyBread(){
         System.out.println("Buy bread");
     }
-    int getAge(int i){
+    public int getAge(int i){
         age = i+1;
         return age;
     }
