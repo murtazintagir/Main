@@ -1,9 +1,9 @@
 package Rasa;
 
 public class Navi{
-    public static void main(String[] args){
+    public String getFlyIcran() {
+        return FlyIcran;
     }
-    public void FlyIcran(){
-        System.out.println("Fly icran");
-    }
+    private static final String FlyIcran = "Fly icran";
+
 }

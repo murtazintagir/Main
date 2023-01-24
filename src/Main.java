@@ -4,11 +4,10 @@ import Rasa.Navi;
 public class Main {
     public static void main(String[] args){
         Human Jake = new Human();
-        Jake.BuyBread();
-        Jake.BuyMilk();
-        System.out.println(Jake.getAge(25));
+        System.out.println(Jake.getBuyBread() + " and " + Jake.getBuyMilk());
+        System.out.println();
         Navi Tsutai = new Navi();
-        Tsutai.FlyIcran();
+        System.out.println(Tsutai.getFlyIcran());
     }
 
 }
